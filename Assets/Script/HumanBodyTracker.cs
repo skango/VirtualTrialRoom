@@ -53,6 +53,20 @@ public class HumanBodyTracker : MonoBehaviour
         set { humanBodyManager = value; }
     }
 
+    public void ChangeOffsetX(float offset)
+    {
+        skeletonOffsetX = offset;
+    }
+
+    public void ChangeOffsetY(float offset)
+    {
+        skeletonOffsetY = offset;
+    }
+
+    public void ChangeOffsetZ(float offset)
+    {
+        skeletonOffsetZ = offset;
+    }
 
     [SerializeField]
     public Clone_Temporary[] clone_temp_var;//Declaring an Object to instantiate Apparels
