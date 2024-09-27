@@ -35,6 +35,9 @@ public class HumanBodyTracker : MonoBehaviour
     //of the Apparel
     public Dictionary<TrackableId, HumanBoneController>[] skeletonTracker = new Dictionary<TrackableId, HumanBoneController>[]
     {
+        new Dictionary<TrackableId, HumanBoneController>(),
+        new Dictionary<TrackableId, HumanBoneController>(),
+        new Dictionary<TrackableId, HumanBoneController>(),
     new Dictionary<TrackableId, HumanBoneController>(),
     new Dictionary<TrackableId, HumanBoneController>(),
     new Dictionary<TrackableId, HumanBoneController>(),
