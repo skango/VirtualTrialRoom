@@ -35,6 +35,11 @@ public class ButtonController : MonoBehaviour
 
     }
 
+    private void Start()
+    {
+        SwapDress();
+    }
+
     void SwapDress(){
         
         //increments the `dress_swap_counter` by 1 and resets the counter to 0 if the `dress_swap_counter` is equal to the 

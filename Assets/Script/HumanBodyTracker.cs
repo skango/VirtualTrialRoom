@@ -38,6 +38,8 @@ public class HumanBodyTracker : MonoBehaviour
         new Dictionary<TrackableId, HumanBoneController>(),
         new Dictionary<TrackableId, HumanBoneController>(),
         new Dictionary<TrackableId, HumanBoneController>(),
+        new Dictionary<TrackableId, HumanBoneController>(),
+        new Dictionary<TrackableId, HumanBoneController>(),
     new Dictionary<TrackableId, HumanBoneController>(),
     new Dictionary<TrackableId, HumanBoneController>(),
     new Dictionary<TrackableId, HumanBoneController>(),
