@@ -37,7 +37,7 @@ public class ButtonController : MonoBehaviour
 
     private void Start()
     {
-        SwapDress();
+        //SwapDress();
     }
 
     void SwapDress(){

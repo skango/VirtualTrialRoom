@@ -63,6 +63,12 @@ public class HumanBodyTracker : MonoBehaviour
         skeletonOffsetX = offset;
     }
 
+
+    public void ChangeScale(string scale)
+    {
+        PlayerPrefs.SetFloat("scale", float.Parse(scale));
+        Debug.Log("scale " + scale);
+    }
     public void ChangeOffsetY(float offset)
     {
         skeletonOffsetY = offset;

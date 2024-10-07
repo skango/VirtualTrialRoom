@@ -146,6 +146,12 @@ public class HumanBoneController : MonoBehaviour
         }
     }
 
+
+    private void Update()
+    {
+        transform.GetChild(0).localScale = PlayerPrefs.GetFloat("scale") * Vector3.one;
+    }
+
     //Updates the positions of the Apparel when the user moves
     public void ApplyBodyPose(ARHumanBody body, Vector3 offset) 
     {
