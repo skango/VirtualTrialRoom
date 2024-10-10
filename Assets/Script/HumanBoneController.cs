@@ -150,6 +150,11 @@ public class HumanBoneController : MonoBehaviour
     private void Update()
     {
         transform.GetChild(0).localScale = PlayerPrefs.GetFloat("scale") * Vector3.one;
+        transform.GetChild(0).localPosition = Vector3.zero + new Vector3(
+            PlayerPrefs.GetFloat("X"),
+             PlayerPrefs.GetFloat("Y"),
+              PlayerPrefs.GetFloat("Z")
+            );
     }
 
     //Updates the positions of the Apparel when the user moves

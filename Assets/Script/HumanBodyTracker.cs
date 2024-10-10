@@ -4,6 +4,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 
 public class HumanBodyTracker : MonoBehaviour
@@ -58,9 +59,9 @@ public class HumanBodyTracker : MonoBehaviour
         set { humanBodyManager = value; }
     }
 
-    public void ChangeOffsetX(float offset)
+    public void ChangeOffsetX(string offset)
     {
-        skeletonOffsetX = offset;
+        PlayerPrefs.SetFloat("X", float.Parse(offset));
     }
 
 
@@ -69,14 +70,17 @@ public class HumanBodyTracker : MonoBehaviour
         PlayerPrefs.SetFloat("scale", float.Parse(scale));
         Debug.Log("scale " + scale);
     }
-    public void ChangeOffsetY(float offset)
+
+
+
+    public void ChangeOffsetY(string offset)
     {
-        skeletonOffsetY = offset;
+        PlayerPrefs.SetFloat("Y", float.Parse(offset));
     }
 
-    public void ChangeOffsetZ(float offset)
+    public void ChangeOffsetZ(string offset)
     {
-        skeletonOffsetZ = offset;
+        PlayerPrefs.SetFloat("Z", float.Parse(offset));
     }
 
     [SerializeField]
