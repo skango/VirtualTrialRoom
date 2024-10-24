@@ -81,7 +81,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
         type: 3}
       propertyPath: m_Name
-      value: Skileton_Weight_Suite-Dress_F_1_+Z
+      value: kaba
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: e76ba4f4ff78cfa4ea445ee083938683,
         type: 3}
@@ -101,6 +101,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3633984008077437488}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8366018239141061828}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772693908852407362}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6247534573855681552}
   m_SourcePrefab: {fileID: 100100000, guid: e76ba4f4ff78cfa4ea445ee083938683, type: 3}
 --- !u!1 &708748572904420318 stripped
 GameObject:
@@ -121,6 +133,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SkeletonRoot: {fileID: 8480540833215452415}
+--- !u!114 &-8366018239141061828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708748572904420318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 0
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  sensitivity: 1
+  damping: -1
+  inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
+--- !u!114 &772693908852407362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708748572904420318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  sensitivity: 1
+  damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-6247534573855681552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708748572904420318}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.49078688, y: 1, z: 0.35048544}
+  m_Center: {x: -0.01961194, y: 0, z: 0.0008161664}
 --- !u!4 &8480540833215452415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1106623031888455056, guid: e76ba4f4ff78cfa4ea445ee083938683,

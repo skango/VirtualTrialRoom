@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
         type: 3}
       propertyPath: m_Name
-      value: Skileton_Weight_Suite-Dress_F_1_+Z
+      value: kostumi
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: e76ba4f4ff78cfa4ea445ee083938683,
         type: 3}
@@ -96,6 +96,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7188719742590557185}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4042392427017114471}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7667480870574847997}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e76ba4f4ff78cfa4ea445ee083938683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3895160845142071215}
   m_SourcePrefab: {fileID: 100100000, guid: e76ba4f4ff78cfa4ea445ee083938683, type: 3}
 --- !u!4 &2829860803175836213 stripped
 Transform:
@@ -122,3 +134,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SkeletonRoot: {fileID: 2829860803175836213}
+--- !u!114 &-4042392427017114471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6566453378188053780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 0
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  sensitivity: 1
+  damping: -1
+  inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
+--- !u!114 &-7667480870574847997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6566453378188053780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  sensitivity: 1
+  damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-3895160845142071215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6566453378188053780}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.49078688, y: 1, z: 0.35048544}
+  m_Center: {x: -0.01961194, y: 0, z: 0.0008161664}
