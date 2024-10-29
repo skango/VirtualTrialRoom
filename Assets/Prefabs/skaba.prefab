@@ -111,17 +111,27 @@ PrefabInstance:
     - target: {fileID: 1262196433546518076, guid: 942dedf1caa4657468a947a1e1e684e5,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: 942dedf1caa4657468a947a1e1e684e5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: 942dedf1caa4657468a947a1e1e684e5,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: 942dedf1caa4657468a947a1e1e684e5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: 942dedf1caa4657468a947a1e1e684e5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: 942dedf1caa4657468a947a1e1e684e5,
         type: 3}
@@ -256,7 +266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Use:
     Filter: 0
-    IgnoreStartedOverGui: 1
+    IgnoreStartedOverGui: 0
     RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}

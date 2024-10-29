@@ -95,13 +95,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: e27b591775ff5ba4ba5d2d5b3ddd4c77,
         type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: e27b591775ff5ba4ba5d2d5b3ddd4c77,
+        type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: e27b591775ff5ba4ba5d2d5b3ddd4c77,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: e27b591775ff5ba4ba5d2d5b3ddd4c77,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3846246420005700500, guid: e27b591775ff5ba4ba5d2d5b3ddd4c77,
         type: 3}
@@ -205,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Use:
     Filter: 0
-    IgnoreStartedOverGui: 1
+    IgnoreStartedOverGui: 0
     RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}

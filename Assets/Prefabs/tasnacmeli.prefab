@@ -73,6 +73,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: tasnacmeli
       objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: 8222fd4fa4a773140ac75153bc206c9f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: 8222fd4fa4a773140ac75153bc206c9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262196433546518076, guid: 8222fd4fa4a773140ac75153bc206c9f,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -156,7 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Use:
     Filter: 0
-    IgnoreStartedOverGui: 1
+    IgnoreStartedOverGui: 0
     RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}

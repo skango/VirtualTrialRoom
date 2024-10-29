@@ -86,7 +86,7 @@ PrefabInstance:
     - target: {fileID: 1262196433546518076, guid: e76ba4f4ff78cfa4ea445ee083938683,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.088
+      value: -0.137
       objectReference: {fileID: 0}
     - target: {fileID: 1262196433546518076, guid: e76ba4f4ff78cfa4ea445ee083938683,
         type: 3}
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Use:
     Filter: 0
-    IgnoreStartedOverGui: 1
+    IgnoreStartedOverGui: 0
     RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
