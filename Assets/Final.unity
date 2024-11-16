@@ -3359,7 +3359,7 @@ MonoBehaviour:
   skeletonOffsetY: 0
   skeletonOffsetZ: 0
   dress:
-  - apparel: {fileID: 6357442085178854445, guid: c3b8cafb399a1b048a861c729d2d32d0,
+  - apparel: {fileID: 9152103652251102844, guid: c3f75ed8d091fa44aabfeb967b9a92a5,
       type: 3}
     apparel_material:
     - Material:
@@ -3439,8 +3439,19 @@ MonoBehaviour:
       - {fileID: 2100000, guid: c3f5be9ae576e40008f55e73862f1086, type: 2}
       Name: Hearty Print
     Name: sacurap
+  - apparel: {fileID: 6568191610410973995, guid: 932d0cb52f3aca846917385c5aea1410,
+      type: 3}
+    apparel_material:
+    - Material:
+      - {fileID: 2100000, guid: f25a882e219bf4770ae47ab04055dc59, type: 2}
+      Name: Mustard Yellow
+    - Material:
+      - {fileID: 2100000, guid: c3f5be9ae576e40008f55e73862f1086, type: 2}
+      Name: Hearty Print
+    Name: shlaqsi jinsi
   humanBodyManager: {fileID: 1843180251}
   clone_temp_var:
+  - apparel: {fileID: 0}
   - apparel: {fileID: 0}
   - apparel: {fileID: 0}
   - apparel: {fileID: 0}
