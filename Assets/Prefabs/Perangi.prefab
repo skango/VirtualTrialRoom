@@ -80,6 +80,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1722187680360207384, guid: 942dedf1caa4657468a947a1e1e684e5,
         type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 8002731344732489162, guid: 9193d4ad8f6f01b4c816cbaae8d44c62,
+        type: 3}
+    - target: {fileID: -1722187680360207384, guid: 942dedf1caa4657468a947a1e1e684e5,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 95bc77b72816e4e11b8633e195352505, type: 2}
