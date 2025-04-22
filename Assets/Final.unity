@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1349,7 +1349,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Change Apparels
+  m_Text: Next
 --- !u!222 &640376029
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3359,7 +3359,7 @@ MonoBehaviour:
   skeletonOffsetY: 0
   skeletonOffsetZ: 0
   dress:
-  - apparel: {fileID: 9152103652251102844, guid: c3f75ed8d091fa44aabfeb967b9a92a5,
+  - apparel: {fileID: 6193354410075823782, guid: 733278b818e9a43449f1f685535c8927,
       type: 3}
     apparel_material:
     - Material:
@@ -3377,7 +3377,19 @@ MonoBehaviour:
     Name: Long Dress
   - apparel: {fileID: 8039073586004787767, guid: 05f590a538dfaec4ab8d97eb1f31a2bc,
       type: 3}
-    apparel_material: []
+    apparel_material:
+    - Material:
+      - {fileID: 2100000, guid: 9e407f565ab4a47dbac797dc4176b893, type: 2}
+      - {fileID: -6922793697723135513, guid: d87465eeb2fae4ec6a6b4ff8b0c583fd, type: 3}
+      Name: Lavender
+    - Material:
+      - {fileID: 2100000, guid: 157f53af5d7254d539cdc51483647039, type: 2}
+      - {fileID: -7614672610726159109, guid: 2d25fc851fb3f412a910ca497c5dea74, type: 3}
+      Name: Polka Dots
+    - Material:
+      - {fileID: 2100000, guid: c3f5be9ae576e40008f55e73862f1086, type: 2}
+      - {fileID: -6922793697723135513, guid: d87465eeb2fae4ec6a6b4ff8b0c583fd, type: 3}
+      Name: Baby Pink
     Name: perangi
   - apparel: {fileID: 8507745953683573664, guid: 7e9de73d34df9ea498030558013d87f5,
       type: 3}
@@ -3524,10 +3536,10 @@ RectTransform:
   - {fileID: 640376027}
   m_Father: {fileID: 1806540845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.9998779, y: 14.71521}
-  m_SizeDelta: {x: -4, y: 29.4302}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 272.14}
+  m_SizeDelta: {x: 311.51, y: 144.2719}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1915109175
 MonoBehaviour:
@@ -3586,7 +3598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.6759999, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3602,7 +3614,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.14
 --- !u!222 &1915109177
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3619,7 +3631,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915109173}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
